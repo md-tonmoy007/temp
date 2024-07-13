@@ -7,3 +7,6 @@ class Todo(models.Model):
     details = models.TextField()
     date = models.DateTimeField(auto_now_add=True)
     
+    
+    def __str__(self):
+        return self # TODO
